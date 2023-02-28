@@ -4,7 +4,7 @@ body{
     height:100vh;
     display: flex;
     width: 100vh;
-    
+
 }
 .Banner{
     display: flex;
@@ -45,4 +45,27 @@ a{
     justify-content: space-around;
     display: flex;
 }
-.content{}
+.right-content{
+    display: flex;
+    margin-right: 36px;
+    margin-top: 36px;
+    padding: 16px;
+    flex-direction: column;
+
+}
+.left-content{
+    display: flex;
+    margin-left: 36px;
+    margin-top: 36px;
+    padding: 16px;
+}
+img{
+    height: 500px;
+    width: auto;
+
+}
+.upper-content{
+    background-color: crimson;
+    width: 100vh;
+   
+}
